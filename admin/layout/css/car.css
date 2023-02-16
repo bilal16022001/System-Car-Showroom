@@ -1,0 +1,332 @@
+body {
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----start Sidebar------*/
+
+/* .sidebar .header {
+    background-color: red !important;
+} */
+
+.sidebar .Sad {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li svg {
+    font-size: 27px;
+    width: 40px;
+}
+
+.sidebar ul li a {
+    margin-left: 13px;
+}
+
+/*-----end Sidebar------*/
+
+/*-----start login------*/
+
+.adminForm {
+    text-align: center;
+    background-color: #e5e5e5;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminForm input {
+    width: 350px;
+}
+
+/*-----end login------*/
+
+/*-----start dashboard------*/
+.dashboard .sidebar {
+    background-color: #414141;
+    height: 100vh;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.dashboard .sidebar ul {
+    padding: 0;
+
+}
+
+.dashboard .sidebar h3,
+.dashboard .sidebar ul li {
+    margin-bottom: 15px;
+    padding: 7px 30px;
+}
+
+.dashboard .sidebar ul li a {
+    color: #fff;
+}
+
+.activeMenu {
+    background-color: red;
+}
+
+.dashboard .col-md-9 {
+    margin-left: -24px;
+}
+
+.dashboard .header {
+    background-color: #e5e5e5cc;
+    padding: 4px 45px;
+
+}
+
+.dashboard .header .row {
+    align-items: center;
+}
+
+.content {
+    background-color: #f6f6f6;
+    height: 100vh;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.content .cr {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.content .cr i {
+    color: rgb(166, 97, 97);
+    font-size: 70px;
+    background-color: #47b897;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.content .cr span {
+    display: block;
+    position: relative;
+    right: -50px;
+    bottom: -9px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content .cr .iconbr {
+    padding: 8px 10px;
+    background: #f5f7fb;
+    color: #4e7cff;
+    border-radius: 8px;
+}
+
+.content .cr .iconCarT {
+    padding: 8px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.iconAc {
+    padding: 8px 10px;
+    background-color: #8e44ad;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.iconSo {
+    padding: 8px 10px;
+    background-color: #f65164;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.content .cr svg {
+    font-size: 50px;
+}
+
+
+/*-----end dashboard ------*/
+
+/*-----start Cars ------*/
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+
+.statut {
+    font-weight: bold;
+}
+
+.cars .linkDrp {
+    background: none;
+    border: none;
+    color: black;
+}
+
+
+.content label,
+.content input {
+    margin-bottom: 7px;
+}
+
+.car h1,
+.car h3,
+.car span {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.car img {
+    width: 302px;
+    height: 165px;
+}
+
+.edbac {
+    padding: 10px;
+}
+
+.back {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.back ul li svg {
+    font-size: 20px;
+}
+
+/*-----end Cars ------*/
+
+/*-----start category----*/
+.backm {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.colorBack {
+    background: #00000040;
+    z-index: 1;
+}
+
+.modl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    /* display: none; */
+    padding: 20px;
+}
+
+.mdlShow {
+    display: block;
+    z-index: 998;
+}
+
+/*-----end category----*/
+/*-----start brands----*/
+.imgBrand {
+    width: 80px;
+    height: 75px;
+}
+
+/*-----end brands----*/
+
+/*-----start setting----*/
+.formSett h3 {
+    margin-bottom: 18px;
+}
+
+.formSett input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.formSett textarea {
+    width: 100%;
+    height: 120px;
+}
+
+/*-----end setting------*/
+
+/*-----start users------*/
+.fromUser {
+    width: 52%;
+    margin: auto;
+}
+
+.userimage {
+    max-width: 100%;
+}
+
+/*-----end users------*/
+.boxInq {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formSett img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*------start account----*/
+.account {
+    background-color: #e5e5e58c;
+    width: 600px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.account img {
+    width: 100px;
+    height: 100px;
+}
+
+.account ul li {
+    margin-bottom: 20px;
+}
+
+.accountForm {
+    background-color: #e5e5e5;
+    width: 50%;
+    margin: 150px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.accountForm input {
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+/*------end account----*/
